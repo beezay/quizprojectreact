@@ -1,0 +1,18 @@
+.questions{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+    .options-container .option{
+        line-height: 1.5rem;
+        margin: 20px;
+        border: 2px solid salmon;
+    }
+
+    .button-container{
+        display: flex;
+        justify-content: space-evenly;
+        cursor: pointer;
+
+    }
+}

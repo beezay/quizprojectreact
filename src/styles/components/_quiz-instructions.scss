@@ -1,0 +1,13 @@
+.instructions{
+    border: 1px solid darken($color: #fff, $amount: 10%);
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5rem, 1rem;
+    text-align: center;
+
+    h1{
+        color: #333;
+        font-size: 24px;
+        text-align: center;
+    }
+}

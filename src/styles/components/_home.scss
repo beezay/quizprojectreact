@@ -1,0 +1,73 @@
+
+
+body{
+    background-color: lightness($color:#f4f4f4);
+    
+}
+
+#home{
+    background-image: url('../../assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+
+
+    section{
+        background-color: rgba(0,0,0,0.7);
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 80%;
+        width: 35%;
+    }
+
+    h1{
+        font-size: 7rem;
+        text-align: center;
+        color: #f8f8f8; 
+    }
+
+    .play-button-container{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    a.play-button{
+        display: block;
+
+        background-color: green;
+        color:#fff;
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 30px;
+    }
+
+    .auth-container{
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        padding:1rem;
+    }
+
+    .auth-container .auth-button{
+        padding: 1rem;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 30px;
+        text-align: center;
+        width:45%;
+    }
+
+    #question-button{
+        background-color: red;
+    }
+
+}
+
+// @media (max-width:768px){
+
+// }
