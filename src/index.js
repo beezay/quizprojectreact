@@ -1,15 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/styles.scss';
-import App from './App';
+import React from "react";
+import "./styles/styles.scss";
+import App from "./App";
+import { createRoot } from "react-dom/client";
 
 // the below commented file added to project as:
 // @ yarn add node-sass react-helmet react-router-dom @mdi/font materialze-css classnames
-
-ReactDOM.render(
+const root = createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
-
